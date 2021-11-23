@@ -1,14 +1,11 @@
 {
-  "name": "my-app",
+  "name": "new-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2",
-    "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
@@ -38,27 +35,11 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-react": "^7.27.1",
     "hint": "^6.1.9",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  },
-  "description": "> \"Math magicians\" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hamid-murambiwa/Magic-Calculator.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hamid-murambiwa/Magic-Calculator/issues"
-  },
-  "homepage": "https://github.com/hamid-murambiwa/Magic-Calculator#readme"
+  }
 }
