@@ -1,10 +1,10 @@
-import CalcHooks from './components/calcHooks.js';
+import CalcHooks from './components/calcHooks';
 // import React from 'react';
 
 function App() {
-    return (
-        <CalcHooks />
-    );
+  return (
+    <CalcHooks />
+  );
 }
 
 export default App;
