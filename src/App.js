@@ -1,14 +1,9 @@
-import calculator from './components/Calculator';
-import React from 'react';
-class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = new calculator;
-    }
+import CalcHooks from './components/calcHooks';
 
-    render() {
-        return this.state.render();
-    }
+function App() {
+  return (
+    <CalcHooks />
+  );
 }
 
 export default App;
