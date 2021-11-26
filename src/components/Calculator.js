@@ -1,5 +1,6 @@
 import React from 'react';
 import calculate from '../logic/calculate';
+
 let count = '';
 class calculator extends React.Component {
     constructor(props) {
