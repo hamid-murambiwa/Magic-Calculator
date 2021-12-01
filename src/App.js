@@ -3,7 +3,6 @@ import {
   Route,
   Routes,
 } from 'react-router-dom';
-// import CalcHooks from './components/calcHooks';
 import Header from './components/header';
 import Footer from './components/footer';
 import Calculator from './pages/Calculator';
