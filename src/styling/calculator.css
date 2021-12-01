@@ -1,0 +1,7 @@
+.page-con {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+}

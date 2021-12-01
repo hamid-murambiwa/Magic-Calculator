@@ -5,7 +5,7 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-![screenshot](https://github.com/hamid-murambiwa/React-app-pic/blob/main/Screenshot%202021-11-23%20at%2006.54.08.png)
+![screenshot](https://github.com/hamid-murambiwa/Calculator-Img/blob/main/Screenshot%202021-12-01%20at%2010.31.09.png)
 ## Built With
 
 - Javascript
