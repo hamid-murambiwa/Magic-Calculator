@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import calculate from '../logic/calculate';
+import calculate from '../Logic/calculate';
 
 const CalcHooks = () => {
   const [obj, setobj] = useState({ total: 0, next: null, operation: null });
