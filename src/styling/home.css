@@ -1,0 +1,17 @@
+.H-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: auto;
+  padding: 80px;
+  text-overflow: inherit;
+}
+
+.H-con h1 {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.H-con p {
+  line-height: 30px;
+}

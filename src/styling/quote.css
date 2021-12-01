@@ -1,0 +1,9 @@
+.sec {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 100px;
+  text-overflow: inherit;
+  height: 50vh;
+  justify-content: center;
+}
