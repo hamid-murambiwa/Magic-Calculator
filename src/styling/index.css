@@ -68,7 +68,6 @@ code {
 }
 
 #screen {
-  grid-column-end: span 4;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -80,6 +79,7 @@ code {
   height: 6vh;
   border-radius: 10px;
   color: white;
+  overflow: scroll !important;
 }
 
 .equals {
