@@ -5,7 +5,12 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-![screenshot](https://github.com/hamid-murambiwa/Calculator-Img/blob/main/Screenshot%202021-12-01%20at%2010.31.09.png)
+![screenshot](https://user-images.githubusercontent.com/71644515/166466491-1b361f8d-e7a8-4879-a2d9-1712c1cd6a9f.png)
+
+## Live Demo
+
+[Live Demo Link](https://62713481ccb7b6026b9001cb--dainty-sunflower-17208d.netlify.app/)
+
 ## Built With
 
 - Javascript
