@@ -33,16 +33,30 @@ code {
   width: 400px;
 }
 
-#buttons {
+.calc-buttons {
   display: grid;
   grid-template-columns: auto auto auto auto;
   height: 85%;
+  background-color: rgba(37, 46, 67);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#ac {
+  background-color: rgb(207, 64, 54) !important;
+  border: none !important;
+  color: white;
 }
 
 #buttons button {
   background-color: whitesmoke;
   border: 0.5px solid grey;
   cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
 }
 
 #buttons button:hover {
@@ -59,15 +73,55 @@ code {
   justify-content: flex-end;
   align-items: center;
   padding: 8px;
+  padding-right: 20px;
   font-size: 29px;
   font-weight: bold;
-  background-color: rgb(130, 130, 130);
+  background-color: rgb(24, 31, 50);
+  height: 6vh;
+  border-radius: 10px;
+  color: white;
+}
+
+.equals {
+  background-color: rgb(41, 92, 45) !important;
+  border: none !important;
+  color: white !important;
 }
 
 .last-row {
   background-color: orange !important;
+  color: white !important;
 }
 
 .last-row:hover {
   background-color: rgb(211, 166, 82) !important;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    margin: 0;
+  }
+
+  .calc-buttons {
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  #CON {
+    width: 300px;
+  }
+
+  #screen {
+    grid-column-end: span 4;
+    font-size: 20px;
+  }
+
+  #buttons button {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #buttons {
+    padding: 15px;
+  }
 }

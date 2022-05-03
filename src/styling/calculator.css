@@ -5,3 +5,11 @@
   height: 70vh;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .page-con {
+    flex-direction: column;
+    min-height: 40vh;
+    justify-content: flex-start;
+  }
+}

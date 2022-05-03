@@ -15,25 +15,27 @@ const CalcHooks = () => {
           {obj.operation}
           {obj.next}
         </div>
-        <button type="button" onClick={() => handleClick('AC')}>ac</button>
-        <button type="button" onClick={() => handleClick('+/')}>+/-</button>
-        <button type="button" onClick={() => handleClick('%')}>%</button>
-        <button type="button" onClick={() => handleClick('÷')} className="last-row">÷</button>
-        <button type="button" onClick={() => handleClick('7')}>7</button>
-        <button type="button" onClick={() => handleClick('8')}>8</button>
-        <button type="button" onClick={() => handleClick('9')}>9</button>
-        <button type="button" onClick={() => handleClick('x')} className="last-row">x</button>
-        <button type="button" onClick={() => handleClick('4')}>4</button>
-        <button type="button" onClick={() => handleClick('5')}>5</button>
-        <button type="button" onClick={() => handleClick('6')}>6</button>
-        <button type="button" onClick={() => handleClick('-')} className="last-row">-</button>
-        <button type="button" onClick={() => handleClick('1')}>1</button>
-        <button type="button" onClick={() => handleClick('2')}>2</button>
-        <button type="button" onClick={() => handleClick('3')}>3</button>
-        <button type="button" onClick={() => handleClick('+')} className="last-row">+</button>
-        <button type="button" onClick={() => handleClick('0')} className="item0">0</button>
-        <button type="button" onClick={() => handleClick('.')}>.</button>
-        <button type="button" onClick={() => handleClick('=')} className="last-row">=</button>
+        <div className="calc-buttons">
+          <button id="ac" type="button" onClick={() => handleClick('AC')}>AC</button>
+          <button type="button" onClick={() => handleClick('+/')} className="last-row">+/-</button>
+          <button type="button" onClick={() => handleClick('%')} className="last-row">%</button>
+          <button type="button" onClick={() => handleClick('÷')} className="last-row">÷</button>
+          <button type="button" onClick={() => handleClick('7')}>7</button>
+          <button type="button" onClick={() => handleClick('8')}>8</button>
+          <button type="button" onClick={() => handleClick('9')}>9</button>
+          <button type="button" onClick={() => handleClick('x')} className="last-row">x</button>
+          <button type="button" onClick={() => handleClick('4')}>4</button>
+          <button type="button" onClick={() => handleClick('5')}>5</button>
+          <button type="button" onClick={() => handleClick('6')}>6</button>
+          <button type="button" onClick={() => handleClick('-')} className="last-row">-</button>
+          <button type="button" onClick={() => handleClick('1')}>1</button>
+          <button type="button" onClick={() => handleClick('2')}>2</button>
+          <button type="button" onClick={() => handleClick('3')}>3</button>
+          <button type="button" onClick={() => handleClick('+')} className="last-row">+</button>
+          <button type="button" onClick={() => handleClick('0')} className="item0">0</button>
+          <button type="button" onClick={() => handleClick('.')}>.</button>
+          <button type="button" onClick={() => handleClick('=')} className="equals">=</button>
+        </div>
       </section>
     </div>
   );

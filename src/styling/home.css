@@ -15,3 +15,17 @@
 .H-con p {
   line-height: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .H-con {
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  .H-con h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
