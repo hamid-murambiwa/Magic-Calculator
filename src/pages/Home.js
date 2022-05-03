@@ -4,7 +4,7 @@ import '../styling/home.css';
 function Home() {
   return (
     <div className="H-con">
-      <h1>Welcome to our page!</h1>
+      <h2>Welcome to our page!</h2>
       <p>
         In turn, an online calculator has a different purpose: it is an interactive
         software tool that is designed to process a predefined set of mathematical
