@@ -13,9 +13,6 @@ function Home() {
         Like all other electronic devices, calculators work by processing information
         in binary form. Thus, when you input numbers into a calculator, the integrated
         circuit converts those numbers to binary strings of 0s and 1s.
-        <br />
-        Online calculators can be used to process orders and payments, simplify part of your sales
-        work, and reduce the time you spend interacting with customers.
       </p>
     </div>
   );

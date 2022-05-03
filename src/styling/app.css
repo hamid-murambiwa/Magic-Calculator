@@ -44,6 +44,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 12px !important;
+  }
+
   .theme {
     margin-left: 5px;
     margin-top: 0;
