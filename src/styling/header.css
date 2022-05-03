@@ -25,7 +25,7 @@ header ul li {
 .nav-l {
   text-decoration: none;
   font-size: 16px;
-  color: #000;
+  color: #fff;
 }
 
 .nav-l:hover {
@@ -48,6 +48,6 @@ header ul li {
 
   header h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }

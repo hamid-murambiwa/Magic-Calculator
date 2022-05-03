@@ -1,3 +1,55 @@
 .App {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+body {
+  color: #fff;
+  font-family: 'Space Mono', monospace !important;
+}
+
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10vw;
+}
+
+.theme h4 {
+  margin: 0 !important;
+}
+
+#theme-btn {
+  background-color: rgb(89, 86, 81) !important;
+  width: 100px !important;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#theme-btn p {
+  border: none;
+  background-color: rgb(203, 205, 217);
+  padding: 10px;
+  margin: 0 !important;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#theme-btn p:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .theme {
+    margin-left: 5px;
+    margin-top: 0;
+  }
+
+  .theme h4 {
+    font-size: smaller !important;
+  }
 }

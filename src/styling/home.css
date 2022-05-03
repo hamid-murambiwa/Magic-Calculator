@@ -3,12 +3,13 @@
   flex-direction: column;
   justify-content: space-evenly;
   width: auto;
-  padding: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
   text-overflow: inherit;
 }
 
 .H-con h1 {
-  margin-top: 80px;
+  margin-top: 40px;
   margin-bottom: 15px;
 }
 
@@ -21,11 +22,15 @@
     padding: 10px;
     padding-left: 35px;
     padding-right: 20px;
-    margin-bottom: 50px;
+    padding-bottom: 75px;
   }
 
   .H-con h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .H-con h2 {
+    margin: 0;
   }
 }
