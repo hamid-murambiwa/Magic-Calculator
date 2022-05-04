@@ -83,6 +83,8 @@ code {
 }
 
 .equals {
+  grid-column: 5;
+  grid-row: 3 / span 2;
   background-color: rgb(41, 92, 45) !important;
   border: none !important;
   color: white !important;
