@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://62713481ccb7b6026b9001cb--dainty-sunflower-17208d.netlify.app/)
+[Live Demo Link](https://dev--dainty-sunflower-17208d.netlify.app/)
 
 ## Built With
 
