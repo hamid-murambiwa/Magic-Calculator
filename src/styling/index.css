@@ -79,7 +79,6 @@ code {
   height: 6vh;
   border-radius: 10px;
   color: white;
-  overflow: scroll !important;
 }
 
 .equals {
