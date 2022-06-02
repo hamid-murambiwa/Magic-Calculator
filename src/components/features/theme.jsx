@@ -10,6 +10,11 @@ export const [ThemeProvider, useTheme, themes] = createTheming(
   },
   {
     dark: {
+      background: 'rgb(17, 17, 17)',
+      foreground: '#3e3e4a',
+      text: '#fff',
+    },
+    medium: {
       background: '#282836',
       foreground: '#3e3e4a',
       text: '#fff',
