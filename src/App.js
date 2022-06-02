@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
   Route,
   Routes,
 } from 'react-router-dom';
-import { ThemeProvider, themes } from './components/features/theme';
+import { ThemeProvider, useTheme } from './components/features/theme';
 import Header from './components/header';
 import Footer from './components/footer';
 import Calculator from './pages/Calculator';
@@ -14,8 +14,8 @@ import './styling/app.css';
 const STATUS_STATES = ['LIGHT', 'MEDIUM', 'DARK'];
 
 function App() {
-  let themeName = 'light';
-  const theme = themes;
+  const [themeName, setThemeName] = useState('light');
+  const theme = useTheme(themeName);
   const [status, setStatus] = useState(0);
   const [position, setPosition] = useState(1);
 
@@ -24,11 +24,11 @@ function App() {
     setStatus(newStatus);
     if (position < 3) {
       if (position === 0) {
-        document.getElementById('App').style.backgroundColor = 'rgb(96, 108, 118)';
+        setThemeName('light');
       } else if (position === 1) {
-        document.getElementById('App').style.backgroundColor = '#282836';
+        setThemeName('medium');
       } else if (position === 2) {
-        document.getElementById('App').style.backgroundColor = 'rgb(17, 17, 17)';
+        setThemeName('dark');
       }
       const newposition = (position + 1);
       setPosition(newposition);
@@ -41,13 +41,9 @@ function App() {
 
   const text = STATUS_STATES[status];
 
-  useEffect(() => {
-    // Your theme name determining logic
-    themeName = 'dark';
-  }, [themeName]);
   return (
     <ThemeProvider value={themeName}>
-      <div id="App" className="App" style={{ backgroundColor: theme[themeName].background }}>
+      <div id="App" className="App" style={{ backgroundColor: theme.background }}>
         <Header />
         <section className="theme">
           <h4>CLICK TO CHANGE THEME &#8680; </h4>
