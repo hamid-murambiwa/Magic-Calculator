@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://dev--dainty-sunflower-17208d.netlify.app/)
+[Live Demo Link](https://maths-magician-app.netlify.app/)
 
 ## Built With
 
